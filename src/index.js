@@ -93,11 +93,13 @@ class TimeRange extends React.Component {
     if (disabledIntervals?.length) {
       const isValuesNotValid = disabledIntervals.some(({ source, target }) =>
         this.checkIsSelectedIntervalNotValid(newTime, source, target))
-      onUpdateCallback({ error: isValuesNotValid })
+      onUpdateCallback({ error: isValuesNotValid, selectedTime: newTime })
       return
     }
 
-    onUpdateCallback({ error: false })
+   
+
+    onUpdateCallback({ error: false, selectedTime: newTime })
   }
 
   getDateTicks = () => {
