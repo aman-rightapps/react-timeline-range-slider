@@ -2,13 +2,13 @@
   "name": "react-timeline-range-slider-live",
   "version": "1.0.0",
   "description": "Time Slider component for React",
-  "author": "Elizaveta Shkodkina <lizashkodkina@gmail.com>",
+  "author": "Amanulla Ashraff <amanullaashraff@gmail.com>",
   "main": "dist/index.js",
   "license": "MIT",
-  "homepage": "https://github.com/lizashkod/react-time-range-slider",
+  "homepage": "https://github.com/aman-rightapps/react-timeline-range-slider",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lizashkod/react-time-range-slider"
+    "url": "https://github.com/aman-rightapps/react-timeline-range-slider"
   },
   "keywords": [
     "react-component",
